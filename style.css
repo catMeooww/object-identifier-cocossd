@@ -7,6 +7,7 @@
 body {
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 a {
@@ -15,4 +16,9 @@ a {
     color: aliceblue;
     width: 90%;
     padding: 10px;
+}
+canvas{
+    border-style: ridge;
+    border-color: aqua;
+    border-width: 5px;
 }
