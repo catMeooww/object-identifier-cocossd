@@ -16,6 +16,7 @@ function draw(){
         for (i = 0; i < objects.length; i++){
             rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
             text(objects[i].label,objects[i].x +10,objects[i].y+10);
+            text(Number(objects[i].confidence).toFixed(2),objects[i].x +10,objects[i].y+20);
             document.getElementById("status").innerHTML = "detectando " + objects.length + " objetos";
         }
     }
